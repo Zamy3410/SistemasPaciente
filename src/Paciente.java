@@ -64,12 +64,20 @@ public class Paciente {
         return costoConsulta > 300000;
     }
 
-    public void msotrarDatos(double costofinal){
+    public void mostrarInfo(){
         System.out.println("==============");
         System.out.println("Nombre: " + nombre);
         System.out.println("Documento: " + documento);
         System.out.println("Costo de la consulta: " + costoConsulta);
-        System.out.println("Costo final: " + costofinal);
+        System.out.println("==============");
+    }
+
+    public void mostrarDatos(double costoFinal){
+        System.out.println("==============");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Documento: " + documento);
+        System.out.println("Costo de la consulta: " + costoConsulta);
+        System.out.println("Costo final: " + costoFinal);
         System.out.println("==============");
     }
 
